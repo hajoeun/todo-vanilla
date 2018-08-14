@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="todo">
+  <section class="todoapp">
+    <header class="header">
+      <h1>todos</h1>
+      <input class="new-todo" placeholder="What needs to be done?" autofocus="">
+    </header>
+    <section class="main">
+      <input class="toggle-all" type="checkbox">
+      <label for="toggle-all">Mark all as complete</label>
+      <ul class="todo-list">
+        <li class="" data-id="1534153977842">
+          <input class="toggle" type="checkbox">
+          <label>aaaa</label>
+          <button class="delete"></button>
+        </li>
+        <li class="" data-id="1534153979057">
+          <input class="toggle" type="checkbox">
+          <label>vvv</label>
+          <button class="delete"></button>
+        </li>
+      </ul>
+    </section>
+    <footer class="footer">
+      <span class="todo-count">2 items left</span>
+      <ul class="filters">
+        <li>
+          <a id="all" class="selected">All</a>
+        </li>
+        <li>
+          <a id="active" class="">Active</a>
+        </li>
+        <li>
+          <a id="completed" class="">Completed</a>
+        </li>
+      </ul>
+      <button class="clear-completed">Clear completed</button>
+    </footer>
+  </section>
+  <footer class="info">
+    <p>Created by
+      <a href="https://www.github.com/joeunha">Joeun Ha</a>
+    </p>
+  </footer>
+</body>
+<script src="./js/api.js"></script>
+<script src="./js/app.js"></script>
+</html>
+  
